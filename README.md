@@ -12,8 +12,8 @@ Forster P, R Harding, A Torroni and H-J Bandelt. 1996. [Origin and evolution of 
 
 The code implements equations 2 and 3 in Cox (2008) for the mean and variance of *ρ*:
 
-<img src="Cox_Equation2.jpg" width="175"/>
-<img src="Cox_Equation3.jpg" width="175"/>
+<img src="Cox_Equation2.jpg" width="120"/>
+<img src="Cox_Equation3.jpg" width="120"/>
 
 where *l* is the average number of mutations on *m* unique lineages sampled from *n* individuals, with each lineage stemming from a defined ancestral node in a resolved gene tree.  
 
