@@ -19,9 +19,9 @@ where *l* is the average number of mutations on *m* unique lineages sampled from
 
 > Note: *msrho* requires a defined ancestor node from which to calculate the *ρ* statistic.  In a simulation setting, the natural node for this purpose is the most recent common ancestor and *msrho* only calculates *ρ* for the MRCA.
 
-*msrho* also calculates the standard deviation of *ρ*, empirical upper and lower bounds of its 95% confidence interval, and the number of segregating sites *S*.
+*msrho* also calculates the standard deviation of *ρ*, empirical upper and lower bounds of the 95% confidence interval of *ρ*, and the number of segregating sites *S*.
 
-Confidence intervals calculated from the variance are necessarily symmetric about *ρ*, but assume that the number of polymorphisms *l* are normally distributed.  In practice, they usually are not, and empirical confidence intervals inferred from the distribution of *l* are typically asymmetric.
+Confidence intervals calculated from the variance are necessarily symmetric about *ρ*, but this assumes that the number of polymorphisms *l* are normally distributed.  In practice, they usually are not, and empirical confidence intervals inferred from the distribution of *l* are typically strongly asymmetric.
 
 INSTALLATION
 
